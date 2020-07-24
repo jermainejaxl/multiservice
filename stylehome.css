@@ -1,0 +1,61 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+
+body
+{
+	background-image: url(background_home.jpg);
+}
+#contenedor
+{
+	width: 50%;
+	height: 300px;
+	padding: 2%;
+	margin-top: 10%;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: rgba(0,0,0);
+	opacity: 0.6;
+	color: white;
+	-webkit-border-radius: 8px 8px;
+	box-shadow: 2px 2px 2px black;
+}
+
+	h1{
+		color: #FFA533;
+		font-family: sans-serif;
+	}
+
+	a{ font-family: sans-serif; }
+
+	form
+	{
+		margin-top: 50px;
+		text-align: center;
+	}
+	.campos
+	{
+		margin: 5px;
+		text-align: center;
+		width: 60%; height: 30px;
+		border: none;
+		-webkit-border-radius: 8px 8px;
+	}
+	.boton
+	{
+		margin: 5px;
+		text-align: center;
+		width: 60%; height: 30px;
+		border: none;
+		-webkit-border-radius: 8px 8px;
+		cursor: pointer;
+		background-color: #FFA533;
+		transition: 0.5s;
+	}
+	.boton:hover
+	{
+		background-color: blue;
+		color: white;
+		transition: 0.5s;
+	}
